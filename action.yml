@@ -1,0 +1,13 @@
+name: Convert Json file to Env File
+description: SubConvert Json file to Env File, matching on pattern file name.
+author: BankwinG
+inputs:
+  filePattern:
+    required: true
+    description: The files pattern to replace.
+runs:
+  using: node16
+  main: dist/index.js
+branding:
+  icon: dollar-sign
+  color: gray-dark
